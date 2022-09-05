@@ -1,0 +1,25 @@
+
+import random
+print("hallo leser")
+
+readername = input("hva heter du?")
+print("hei" +  readername)
+print("i dette korte python programme, vil du få lese en historie! denne historien er laget tilfeldig med et pyhton program jeg har kodet. Kos deg med lesingaa" + readername)
+
+karakter = ["bjørn", "havfrue", "menneske", "katt", "hund", "mus", "elefant", "løve", "konge", "prins", "prinsesse", "dronning", "hamster", "robot",]
+bor = ["et slott", "et fjell", "et hav", "en hulle," "en skog"]
+følelser = ["sur", "trist", "glad", "redd", "sliten", "trøtt", "sta"]
+drøm = ["astronaut", "lege", "doktor", "lærer", "fisker", "skuespiller", "kjendis"]
+år = ["10", "22", "100", "55", "2", "90", "15", "12" , "11," "29", "67", "34", "5"]
+resten = ["sur", "trist", "glad", "redd", "sliten", "trøtt", "sta"]
+
+randomkarakter = random.choice(karakter)
+randombo = random.choice(bor)
+randomfølelser = random.choice(følelser)
+randomdrøm = random.choice(drøm)
+randomår = random.choice(år)
+randomresten = random.choice(resten)
+
+print ("Det var en gang en" + (random.choice(karakter) + "som bodde i" + (random.choice(bor) + "den følte seg alltid" +  (random.choice(følelser) + "men den hadde en drøm om å bli" + (random.choice(drøm) + "det var en stor drøm, den hadde drømt det hele livet. det betydde at i" + (random.choice(år) + "hadde den gått og tenkte på den samme drømmen. Heldigvis fikk den endelig oppleve drømmen sin. Deretter levde den livet sitt som en" + (random.choice(resten) "skapning")
+
+
