@@ -1,4 +1,3 @@
-
 import random
 print("hallo leser")
 
@@ -20,6 +19,6 @@ randomdrøm = random.choice(drøm)
 randomår = random.choice(år)
 randomresten = random.choice(resten)
 
-print ("Det var en gang en" + (random.choice(karakter) + "som bodde i" + (random.choice(bor) + "den følte seg alltid" +  (random.choice(følelser) + "men den hadde en drøm om å bli" + (random.choice(drøm) + "det var en stor drøm, den hadde drømt det hele livet. det betydde at i" + (random.choice(år) + "hadde den gått og tenkte på den samme drømmen. Heldigvis fikk den endelig oppleve drømmen sin. Deretter levde den livet sitt som en" + (random.choice(resten) "skapning")
+print ("Det var en gang en" + randomkarakter + "som bodde i" + randombo + "den følte seg alltid" +  randomfølelser + "men den hadde en drøm om å bli" + randomdrøm + "det var en stor drøm, den hadde drømt det hele livet. det betydde at i" + randomår + "hadde den gått og tenkte på den samme drømmen. Heldigvis fikk den endelig oppleve drømmen sin. Deretter levde den livet sitt som en" + randomresten + "skapning")
 
 
